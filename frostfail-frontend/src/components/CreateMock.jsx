@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { createMock, API_BASE } from "../api/frostfail";
+import { createMock } from "../api/frostfail";
 export default function CreateMock({ onTest }) {
   // ===== CORE STATE =====
   const [path, setPath] = useState("/api/test");
