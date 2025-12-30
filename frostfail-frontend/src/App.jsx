@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
 import CreateMock from "./components/CreateMock";
 import LogsTable from "./components/LogsTable";
-import { API_BASE } from "./api/frostfail";
 
 export default function App() {
   const [logs, setLogs] = useState([]);
