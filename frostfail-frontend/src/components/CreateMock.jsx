@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { createMock } from "../api/frostfail";
+import { API_BASE } from "../api/frostfail";
 
 export default function CreateMock({ onTest }) {
   // ===== CORE STATE =====
